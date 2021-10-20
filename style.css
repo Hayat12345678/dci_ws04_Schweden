@@ -22,3 +22,6 @@ body{
    .card img{
        opacity: 0.;
    }
+   .card-img-top{
+       height: 25vh;
+   }
