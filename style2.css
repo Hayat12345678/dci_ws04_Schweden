@@ -11,6 +11,8 @@
 
 #text-unter {opacity: 1;} */
 
+
+
 #flag1{
     width: 400px;
 
@@ -36,10 +38,11 @@ opacity: 0.5;}
 #acasa{background-color: rgb(205, 230, 247);
 display: block;}
 
-#info-mijloc{ background-color: rgb(245, 243, 243);
+#info-mijloc{ background-color: rgb(218, 209, 209);
     width: 100%;
     height: auto;
     text-align: center;
+    
     /* border: 15px solid green; */
  }
 
@@ -51,7 +54,8 @@ height: 556px;
 border-radius: 5%;
 border: 3px solid black;}
 
-#top-10{text-align: center;}
+#top-10{text-align: center;
+background-color: rgb(226, 224, 208);}
 
 #text-info{
     display: flex;
@@ -84,5 +88,17 @@ h3{
   }
 
   #strelka{padding: 1rem;}
+
+  .text-car{
+    font-family: 'Festive', cursive;
+    font-size: 2rem;
+    color: 3px solid black;
+  }
+
+  
+
+  #dreapta{float: right;
+margin-top: 10px;
+}
 
   /* Veaceslav CSS */
