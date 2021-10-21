@@ -1,5 +1,5 @@
 body{
-    background-image: url(schweden.avif) ;
+    background-image: url(img1/schweden.avif);
 }
 #erflagge{
     width: 400px;
@@ -13,12 +13,17 @@ body{
           top: 20%;
           left: 50%;
           transform: translate(-50%, -50%);
-          color: yellow;
+          color: rgb(216, 191, 48);
           font-size:50pX;
     }
-   #cardbox{
-       height: 80vh;
-   }
+    #cardbox{
+
+        height: 80vh;
+    }
    .card img{
+    justify-content: space-between ;
        opacity: 0.;
+   }
+   .card-img-top{
+       height: 25vh;
    }
