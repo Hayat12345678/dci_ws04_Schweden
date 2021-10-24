@@ -1,11 +1,28 @@
+
+/* Hayat CSS */
+   
+#Über-uns{background-color: cadetblue;
+color: black;
+font-family: 'Zen Antique', serif;
+font-size: 2rem;
+    padding: 0;
+    display: flex;
+    text-align: center;
+   flex-wrap: wrap;
+   padding: 70px;
+    margin-left:200px; 
+   margin-right: 200px;
+   opacity: 0.6;
+}        
+
 body{
-    background-image: url(img1/schweden.avif);
+  background-image: url(img1/schweden.avif);
 }
-#erflagge{
+#erflagge{display: flex;
     width: 400px;
     height: 250px;
     margin-top: 60px;
-    margin-right: 60px;
+    margin-right: 60px;    
 }
     .hero-text{
           text-align: center;
@@ -17,9 +34,12 @@ body{
           font-size:50pX;
     }
     #cardbox{
-
         height: 80vh;
     }
+    a:hover{
+        font-size: 1.5rem;
+    }
+
    .card img{
     justify-content: space-between ;
        opacity: 0.;
@@ -33,15 +53,32 @@ body{
     text-shadow:  2px 2px 3px #e4e00ed8,
     2px -2px 3px rgb(48, 68, 241),
     -2px 2px 2px royalblue,
-    -2px -2px 3px royalblue
-    ;
+    -2px -2px 3px royalblue;
     font-weight:400;
     display: grid;
     grid-column: 1/5;
     justify-content: center;
     padding-bottom: 2rem;
 }
+
+.fussbereich{
+    clear: both;
+    text-align: center;
+    height: 100px;
+    background-color:rgb(217, 235, 223) ;
+    padding: 50px;
+    border-top: 5px solid black;
+    } 
+    p{
+        font-size: 1rem;
+        font-family: 'Zen Antique', serif;
+    }   
+
 @media (max-width: 900px)  {
-    #cardbox {
+  main {
    flex-direction: column;
-    }}
+    }
+    #erflagge{flex-direction: column;}
+}
+
+
