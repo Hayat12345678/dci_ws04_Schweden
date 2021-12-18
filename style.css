@@ -13,7 +13,10 @@ font-size: 2rem;
     margin-left:200px; 
    margin-right: 200px;
    opacity: 0.6;
-}        
+}  
+hgroup{
+    margin-top: 0px;
+}      
 
 body{
   background-image: url(img1/schweden.avif);
@@ -48,7 +51,7 @@ body{
        height: 25vh;
    }
    h1{
-    font-size: 4.5rem;
+    font-size: 4.rem;
     color: rgba(6, 2, 39, 0.979);   
     text-shadow:  2px 2px 3px #e4e00ed8,
     2px -2px 3px rgb(48, 68, 241),
@@ -58,7 +61,7 @@ body{
     display: grid;
     grid-column: 1/5;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .fussbereich{
